@@ -5613,13 +5613,13 @@ Created using IcoMoon - icomoon.io
     }
 
     .sidebar-collapse .navbar-collapse:before {
-        background: #378C3F;
+        background: #a300cc;
         /* For browsers that do not support gradients */
         /* For Safari 5.1 to 6.0 */
         /* For Opera 11.1 to 12.0 */
         /* For Firefox 3.6 to 15 */
-        background: -webkit-gradient(linear, left top, left bottom, from(#378C3F), color-stop(80%, #000));
-        background: linear-gradient(#378C3F 0%, #000 80%);
+        background: -webkit-gradient(linear, left top, left bottom, from(#a300cc), color-stop(80%, #000));
+        background: linear-gradient(#a300cc 0%, #000 80%);
         /* Standard syntax (must be last) */
         opacity: 0.76;
         filter: alpha(opacity=76);
@@ -7183,18 +7183,18 @@ Created using IcoMoon - icomoon.io
 /* Body */
 /* Profile Page Background Style */
 .page-header {
-    background: rgba(44, 44, 44, 0.2);
+    /*background: rgba(44, 44, 44, 0.2);*/
     /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(55, 140, 63, 0.6)));
-    background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6));
-    /* Standard syntax */
+    /*background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(55, 140, 63, 0.6)));
+    background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6));*/
+
 }
 
 .page-header .btn {
-    width: 140px;
+    width: 130px;
 }
 
 /* Profile Image Style */
@@ -7236,14 +7236,14 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
     content: "";
-    border: 15px solid rgba(55, 140, 63, 0.6);
+    border: 20px solid rgba(163, 0, 204, 0.71);
     border-radius: 50%;
-    height: 180px;
+    height: 190px;
     width: 180px;
     position: absolute;
     left: 0;
-    -webkit-animation: pulsate 1.6s ease-out;
-    animation: pulsate 1.6s ease-out;
+    -webkit-animation: pulsate 2s ease-out;
+    animation: pulsate 2s ease-out;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     opacity: 0.0;
@@ -7253,14 +7253,14 @@ Created using IcoMoon - icomoon.io
 .cc-profile-image img {
     position: relative;
     border-radius: 50%;
-    height: 180px;
+    height: 190px;
     width: 180px;
     padding: 0;
     margin: 0;
     border: 15px solid transparent;
     z-index: 9999;
-    -webkit-transition: all .3s ease-out;
-    transition: all .3s ease-out;
+    -webkit-transition: all .9s ease-out;
+    transition: all .9s ease-out;
 }
 
 .cc-profile-image a:hover img {
@@ -7288,10 +7288,10 @@ Created using IcoMoon - icomoon.io
     height: 5px;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
-    -webkit-transition: -webkit-transform 2s ease-in-out;
-    transition: -webkit-transform 2s ease-in-out;
-    transition: transform 2s ease-in-out;
-    transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+    -webkit-transition: -webkit-transform 30s ease-in-out;
+    transition: -webkit-transform 30s ease-in-out;
+    transition: transform 30s ease-in-out;
+    transition: transform 30s ease-in-out, -webkit-transform 30s ease-in-out;
     -webkit-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
 }
