@@ -7428,3 +7428,7 @@ a.credit {
 .btnColor:hover {
     background-color: rgba(183, 0, 228, 0.7);
 }
+
+#f-icon:hover {
+    color: #a300cc;
+}
